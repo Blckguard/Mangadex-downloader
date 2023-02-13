@@ -1,0 +1,1 @@
+A tool do download manga-chapters from mangadex.org
