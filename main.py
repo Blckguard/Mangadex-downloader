@@ -1,5 +1,6 @@
 from time import sleep
 from requests import get
+from shutil import *
 
 
 
@@ -21,6 +22,7 @@ def get_chapters():
     successful = False
 
     # config
+    translated_language = 'en'
     order = ''
     chapter = ''
 
@@ -28,7 +30,7 @@ def get_chapters():
         if len(chapters_list) == total:
             successful = True
         else:
-            request_list = get(f'''https://api.mangadex.org/chapter?manga={manga_id}&offset={offset}{order}{chapter}&limit=50&translatedLanguage[]=en''').json()
+            request_list = get(f'''https://api.mangadex.org/chapter?manga={manga_id}&offset={offset}{order}{chapter}&limit=50&translatedLanguage[]={translated_language}''').json()
 
             if request_list['result'] == 'error':
                 print(request_list)
@@ -40,5 +42,13 @@ def get_chapters():
     return chapters_list
 
 
-chapters = get_chapters()
-print(len(chapters))
+chapters_list = get_chapters()
+
+res = get(f"https://mangadex.org/chapter/{chapters_list[2]['id']}/2", stream = True)
+
+if res.status_code == 200:
+    with open('page.png','wb') as f:
+        copyfileobj(res.raw, f)
+    print('Image sucessfully Downloaded: ')
+else:
+    print('Image Couldn\'t be retrieved')
