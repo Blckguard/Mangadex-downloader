@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="dns-prefetch" href="https://api.mangadex.org">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/pwa/icons/icon-180.png">
+<link rel="search" href="/opensearch.xml" title="MangaDex" type="application/opensearchdescription+xml"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/entry.80919cc8.js"><link rel="preload" as="style" href="/_nuxt/entry.47bebfb2.css"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/theme.93a83592.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/default.654f6fd4.js"><link rel="prefetch" as="style" href="/_nuxt/default.183346bb.css"><link rel="prefetch" as="style" href="/_nuxt/MikuDex.732b43a9.css"><link rel="prefetch" as="style" href="/_nuxt/Fade.21376ab5.css"><link rel="prefetch" as="style" href="/_nuxt/Btn.cde781cd.css"><link rel="prefetch" as="style" href="/_nuxt/Announcement.446c74f5.css"><link rel="prefetch" as="style" href="/_nuxt/Markdown.5ed72351.css"><link rel="prefetch" as="style" href="/_nuxt/Draft.fd52777b.css"><link rel="prefetch" as="style" href="/_nuxt/Pagination.ea10a258.css"><link rel="prefetch" as="style" href="/_nuxt/FeedListView.4cf3abef.css"><link rel="prefetch" as="style" href="/_nuxt/Page.f5aeddcf.css"><link rel="prefetch" as="style" href="/_nuxt/History.c3b0fb70.css"><link rel="prefetch" as="style" href="/_nuxt/Dense.0f329467.css"><link rel="prefetch" as="style" href="/_nuxt/SuspiciousActivityDialog.87fee9a0.css"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Fade.b5ec2d7e.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/_plugin-vue_export-helper.5af1bae3.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Brand.67a70686.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/mangadex-wordmark.7da3b5da.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Btn.bf8fe51e.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Link.57ced2f7.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Announcement.vue.16830afa.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/relationFilters.765454d8.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Markdown.2520fbe3.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/genericHelpers.381b838d.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Draft.vue.85521130.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Pagination.7f88ef0b.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/FeedListView.vue.964e698d.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Alert.f5b9ab73.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/asyncData.e2c1b3c5.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/manga.6b8f31bb.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/eggStuffs.29c528be.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Page.vue.684c7ad8.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/History.vue.ff1042c0.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Dense.vue.a352ea69.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/user.386b6b23.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/SuspiciousActivityDialog.vue.e1b8c9a3.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/chapter.7e6f9486.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Spacer.5f252c40.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Divider.2026da70.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Version.vue.f8104a94.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Authors.10cf0fd6.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Dense.7fb31b90.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Card.89040777.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Role.081ef84e.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Card.5f77e670.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/avatar.36560718.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Checkbox.bcd56e87.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Dialog.20ec4d64.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/workbox-window.prod.es5.295a6886.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/SuspiciousActivityDialog.841697a0.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/MikuDex.d91c7620.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/error-component.8e6f595c.js"><link rel="prefetch" as="style" href="/_nuxt/error-component.0b841cd4.css"><link rel="prefetch" as="script" crossorigin href="/_nuxt/cat-books.1ae75d17.js"><link rel="stylesheet" href="/_nuxt/entry.47bebfb2.css">
+
+<meta property="og:site_name" content="MangaDex">
+<meta property="og:title" content="The Real Daughter Is Back - Ch. 2 - MangaDex">
+<meta property="og:type" content="object">
+<meta property="og:url" content="https://mangadex.org/chapter/ab05e484-32c2-4032-9379-57c07fa361d3">
+<meta name="description" content="Read The Real Daughter Is Back Ch. 2 on MangaDex!">
+<meta property="og:description" content="Read The Real Daughter Is Back Ch. 2 on MangaDex!">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://og.mangadex.org/og-image/chapter/ab05e484-32c2-4032-9379-57c07fa361d3">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:url" content="https://og.mangadex.org/og-image/chapter/ab05e484-32c2-4032-9379-57c07fa361d3">
+<meta property="og:image:secure_url" content="https://og.mangadex.org/og-image/chapter/ab05e484-32c2-4032-9379-57c07fa361d3">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Read The Real Daughter Is Back Ch. 2 on MangaDex!">
+<meta name="twitter:title" content="The Real Daughter Is Back - Ch. 2 - MangaDex">
+<meta name="twitter:description" content="Read The Real Daughter Is Back Ch. 2 on MangaDex!">
+<meta name="twitter:site" content="@MangaDexRE">
+<meta name="twitter:domain" content="mangadex.org">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:src" content="https://og.mangadex.org/og-image/chapter/ab05e484-32c2-4032-9379-57c07fa361d3">
+<meta property="og:locale:alternate" content="en_GB">
+</head>
+<body ><div id="__nuxt"></div>
+<noscript>
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100%; gap: 2rem;">
+      <img
+        src="/img/cat-books.svg"
+        alt="Cat napping on a pile of books"
+        style="max-width: 400px"
+      />
+      <p style="font-weight: 500; text-align: center; font-size: 1.5rem; line-height: 2rem;">Please enable JavaScript to view MangaDex.</p>
+    </div>
+</noscript>
+    <script>window.__NUXT__=(function(a){return {serverRendered:false,config:{public:{version:"git-20230218-1437-d341be67",apiUrl:"https:\u002F\u002Fapi.mangadex.org",baseUrl:a,cdnEdge:a,cdnOrigin:"https:\u002F\u002Fuploads.mangadex.org",kcUrl:"https:\u002F\u002Fauth.mangadex.org",kcClientId:"mangadex-frontend-stable",forumsUrl:"https:\u002F\u002Fforums.mangadex.org",gtmId:"GTM-TS59XX9",recaptchaSiteKey:"6LflOrIaAAAAACcpRSiKQlt_X6bq-QcVjHTG1diJ",popularTitlesDeltaDays:"30"},app:{baseURL:"\u002F",buildAssetsDir:"\u002F_nuxt\u002F",cdnURL:""}},data:{},state:{}}}("https:\u002F\u002Fmangadex.org"))</script><script type="module" src="/_nuxt/entry.80919cc8.js" crossorigin></script></body>
+</html>

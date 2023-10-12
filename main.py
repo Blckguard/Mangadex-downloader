@@ -26,11 +26,16 @@ def get_chapters():
     order = ''
     chapter = ''
 
+    headers = {
+        'User-Agent':  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        'From': ''  # This is another valid field
+    }
+
     while not successful:
         if len(chapters_list) == total:
             successful = True
         else:
-            request_list = get(f'''https://api.mangadex.org/chapter?manga={manga_id}&offset={offset}{order}{chapter}&limit=50&translatedLanguage[]={translated_language}''').json()
+            request_list = get(f'''https://api.mangadex.org/chapter?manga={manga_id}&offset={offset}{order}{chapter}&limit=50&translatedLanguage[]={translated_language}''', headers = headers).json()
 
             if request_list['result'] == 'error':
                 print(request_list)
